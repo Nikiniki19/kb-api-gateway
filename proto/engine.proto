@@ -1,0 +1,20 @@
+syntax="proto3";
+
+option go_package="./proto";
+
+package engine;
+
+service EngineRequest{
+    rpc FetchUser(EngineClientID)returns(EngineResponse);
+}
+
+message EngineClientID{
+    uint32 id = 1;
+};
+
+message EngineResponse{
+    string username=1;
+    string email=2;
+    string password=3;
+}
+
