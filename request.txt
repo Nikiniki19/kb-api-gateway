@@ -1,0 +1,22 @@
+HTTP request from POSTMAN
+-------------------------
+Method : GET
+Request URL : localhost:8080/fetchUser/From/EngineOrGeneric
+
+{
+    "clientName": "engine",
+    "userId":1
+}
+
+
+-------------------------
+
+Method : GET
+Request URL : localhost:8080/fetchUser/From/EngineOrGeneric
+
+{
+    "clientName": "generic",
+    "userId":1
+}
+
+--------------------------
